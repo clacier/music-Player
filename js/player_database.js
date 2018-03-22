@@ -70,7 +70,7 @@
 
    // oline song/dream/
    var main =[
-	   { title: "Five Hundred miles", artist: "Justin Timberlake", mp3: "mp3/Five Hundred Miles.mp3 ", poster: "images/five.jpg" },
+	   { title: "Five Hundred miles", artist: "Justin Timberlake", mp3: "mp3/Five Hundred miles.mp3 ", poster: "images/five.jpg" },
 	   { title: "Free Loop", artist: "Daniel Powter", mp3: "mp3/Free Loop.mp3", poster: "images/Free Loop.jpg" },
 	   { title: "Hotel California", artist: "Eagles", mp3: "mp3/Hotel California.mp3", poster: "images/Hotel California.jpg" },
 	   { title: "Take Me to Your Heart", artist: "Mickael Learns To Rock", mp3: "Take Me to Your Heart.mp3", poster: "images/Take Me to Your Heart.jpg" },
