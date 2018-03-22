@@ -409,20 +409,7 @@ $(function(){
 	};
 
 
-	//缓冲加载条
-	/*var startBuffer=function(){
-		var maxduration=video[0].duration;
-		var currentBuffer=video[0].buffered.end(0);
-		var percentage=100*currentBuffer/maxduration;
-		$(".bufferBar").css("width",percentage+"%");
-
-		if(currentBuffer<maxduration){
-			setTimeout(startBuffer,500);
-		}
-	};
-	setTimeout(startBuffer,500);
-
-*/
+	
 	//静音按钮
 	$(".muted").click(function(){
 		if(video[0].muted){
