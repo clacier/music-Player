@@ -1,0 +1,577 @@
+﻿
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>music</title>
+<meta name="keywords" content="music" />
+<meta name="description" content="person music" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/player.css" />
+<link rel="Shortcut Icon" href="images/favicon.ico" />
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script>
+if ((!to3d()) || document.documentMode == 10 || document.documentMode == 11){ 
+	window.location="error/error.html";
+}
+</script>
+</head>
+<body>
+
+
+
+<!--头部 开始-->
+<div id="header">
+    <!--顶部bar 开始-->
+
+    
+    	<!--二级导航-->
+        <nav class="sub_nav">
+            <div class="nav_list">
+                <ul>
+                    <li>
+                            <!-- <a href="" class="smallogo">
+                                <span class="mini_logo"></span>
+                            </a> -->
+                        </li>
+                        <!-- <li><a href="" class="home"></a></li> -->
+                    <div class="sub_list" id="sub_list">
+                        <p class="active">
+                        	<a href="?cat=9">That music dwells in my mind.</a>
+                        </p>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    
+  	<!--头部导航  结束-->
+</div>
+
+<!-- 音乐馆 模块 开始  default-->
+<section class="section_cont">
+    <!--轮播图 开始 -->
+    <div class="main_banner">
+        <div class="main_banner_bg"></div>
+        <div class="main_banner_wrap">
+            <div class="main_banner_box" id="m_box">
+                <a href="javascript:void(0)" class="banner_btn js_pre">
+                    <span class="banner_btn_arrow"><i></i></span>
+                </a>
+                <a href="javascript:void(0)" class="banner_btn btn_next js_next">
+                    <span class="banner_btn_arrow"><i></i></span>
+                </a>
+                <ul>
+                    <li id="imgCard0">
+                          <a href=""><span style="opacity:0;"></span></a>      
+                        <img src="main_banner/张国荣.jpg" alt="">
+                        <p style="bottom:0">回忆，缠住了心事千遍</p>
+                    </li> 
+                    <li id="imgCard1">
+                        <a href=""><span style="opacity:0.4;"></span></a>      
+                        <img src="main_banner/杀手.jpg" alt="">
+                        <p>岁月在你脸上刻下衰老，却在我心底刮走回忆</p>
+                    </li> 
+                    <li id="imgCard2">
+                        <a href=""><span style="opacity:0.4;" ></span></a>        
+                        <img src="images/ywy.jpg" alt="">
+                        <p>飞花轻似雾奈何风吹去，终究如烟纷飞东西</p>
+                    </li> 
+                    <li id="imgCard3">
+                        <a href=""><span style="opacity:0.4;"></span></a>      
+                        <img src="images/wbyl.jpg" alt="">
+                        <p>那绵延百里的汽笛，一如我的叹息</p>
+                    </li> 
+                    <li id="imgCard4">
+                        <a href=""><span style="opacity:0.4;"></span></a>      
+                        <img src="images/yq.jpg" alt="">
+                        <p>热情就算枉费，友情同样美丽</p>
+                    </li> 
+                </ul>
+                <!--火狐倒影图层-->
+                <p id="rflt"></p>
+                <!--火狐倒影图层-->
+            </div>
+            <!--序列号按钮-->
+            <div class="btn_list">
+                <span class="cur"></span><span></span><span></span><span></span><span></span>        
+            </div>
+        </div>
+    </div>
+    <!--轮播图 结束 -->
+    
+
+    <div class="new_mv new_common">
+   
+        <div class="new_mv_title new_common_title index_mv_title">
+            <span>Magic box</span>
+            <a href="?cat=6" class="more"></a>
+            
+        </div>
+        
+        <div class="new_mv_body index_mv_body">
+         
+            <div class="mvList" id="mv_rank_list" style="display:block;">
+                <ul class="sb" id="main">
+			        <li>
+                        <a href="javascript:;" class="playIcon" >
+                            <img width="220" height="125" src="images/five.jpg" class="attachment-220x125 wp-post-image" alt="mv_1x2_10" /> 
+                            <strong>Justin Timberlake</strong>
+                            <span>
+                                 <font>Five Hundred miles &#8211; Justin Timberlake</font>
+                                 <font><i></i></font>
+                                 <font><i></i>20<em>2</em></font>
+                            </span>
+                        </a>
+                    </li>
+		            <li>
+                        <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/Free Loop.jpg" class="attachment-220x125 wp-post-image" alt="" />
+                            <strong>Daniel Powter</strong>
+                            <span>
+                                <font>Free Loop &#8211;  Daniel Powter</font>
+                                <font><i></i></font>
+                                <font><i></i>9<em>2</em></font>
+                            </span>
+                        </a>
+                    </li>
+					<li>
+                        <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/Hotel California.jpg" class="attachment-220x125 wp-post-image" alt="" />                
+                            <strong>Eagles</strong>
+                            <span>
+                                <font>Hotel California &#8211; Eagles</font>
+                                <font><i></i></font>
+                                <font><i></i>3<em>2</em></font>
+                            </span>
+                        </a>
+                    </li>
+					<li>
+                           <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/Take Me to Your Heart.jpg" class="attachment-220x125 wp-post-image" alt="" />                 
+                            <strong>Mickael Learns To Rock</strong>
+                            <span>
+                                <font>Take Me to Your Heart</font>
+                                <font><i></i></font>
+                                <font><i></i>1<em>2 </em></font>
+                            </span>
+                        </a>
+                    </li>
+					<li>
+                       <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/Right Here Waiting.jpg" class="attachment-220x125 wp-post-image" alt="" />                      
+                            <strong>Richard Marx</strong>
+                            <span>
+                                <font>Right Here Waiting &#8211; Richard Marx</font>
+                                <font><i></i></font>
+                                <font><i></i>0<em>2</em></font>
+                            </span>
+                        </a>
+                    </li>
+					<li>
+                        <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/Shape Of My Heart.jpg" class="attachment-220x125 wp-post-image" alt="" />                           
+                            <strong>sting</strong>
+                            <span>
+                                <font>Shape Of My Heart&#8211; sting</font>
+                                <font><i></i></font>
+                                <font><i></i>0<em>2</em></font>
+                            </span>
+                        </a>
+                    </li>
+					<li>
+                      <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/Traveling Light.jpg" class="attachment-220x125 wp-post-image" alt="" />                           
+                            <strong>joel hanson</strong>
+                            <span>
+                                <font>Traveling Light &#8211; joel hanson</font>
+                                <font><i></i></font>
+                                <font><i></i>10<em>2</em></font>
+                            </span>
+                        </a>
+                    </li>
+				    <li>
+                       <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/Better Than A Hallelujah.jpg" class="attachment-220x125 wp-post-image" alt="" />                       
+                            <strong>Amy Grant</strong>
+                            <span>
+                                <font>Better Than A Hallelujah &#8211; Amy Grant</font>
+                                <font><i></i></font>
+                                <font><i></i>1<em>26</em></font>
+                            </span>
+                        </a>
+                    </li>
+					<li>
+                        <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/Glad You Came.jpg" class="attachment-220x125 wp-post-image" alt="" />                          
+                            <strong>The Wanted</strong>
+                            <span>
+                                <font>Glad You Came &#8211; The Wanted</font>
+                                <font><i></i></font>
+                                <font><i></i>7<em>23</em></font>
+                            </span>
+                        </a>
+                    </li>
+					<li>
+                        <a href="javascript:;" class="playIcon">
+                            <img width="220" height="125" src="images/The truth that you leave.jpg" class="attachment-220x125 wp-post-image" alt="" />        
+                            <strong>高志豪</strong>
+                            <span>
+                                <font>The truth that you leave &#8211; 高志豪</font>
+                                <font><i></i></font>
+                                <font><i></i>90<em>3</em></font>
+                            </span>
+                        </a>
+                    </li>
+			    </ul>
+            </div>
+         
+        </div>
+    </div> 
+    
+
+    <div class="songs_rcmd_title">
+        <div class="rcmd_left_title rcmd_title">
+            <span>Elegant</span>
+            <a href="" class="more">/more</a>
+        </div>
+        <div class="rcmd_center_title rcmd_title">
+            <span>Ethereal</span>
+            <a href="" class="more">/more</a>
+        </div>
+        <div class="rcmd_right_title rcmd_title">
+            <span>Silence</span>
+            <a href="" class="more">/more</a>
+        </div>
+    </div>
+    
+    <div class="songs_rcmd" id="songs_rcmd">
+        <div class="songs_rcmd_cont">
+            <ul class="rcmd_left rcmd_cont" id="latest">
+				<li>
+                    <a href="" class="musicName"> Fleur de lis &#8211; Noicybino</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Dance, cherry blossoms! &#8211; Yuri akiyama</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Lost in Love &#8211; Bois LanYun</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">远すぎた空 &#8211; Akito</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Whether &#8211;  AniFace</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Constellation Of Tatyana &#8211; Yakuro</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Princess &#8211; α·Pav</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Day by Day &#8211; Shirfine</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">blue blossoms &#8211; 久遠</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+            </ul>
+            <ul class="rcmd_center rcmd_cont" id="popular">
+				<li>
+                    <a href="javascript:;" class="musicName">無神論者のためのセレナータ &#8211; love solfege</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Proschenie &#8211; love solfege</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">神の光 -Μοιρα- &#8211; Sound Horizon</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">星女神の巫女 -Αρτεμισια- &#8211; Sound Horizon</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">石畳の緋い悪魔 &#8211; Sound Horizon</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">この狭い鳥籠の中で &#8211; Sound Horizon</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Secret Track &#8211; Sound Horizon</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">a fairy tale &#8211; MUSIRISCA</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="musicName">Prayer &#8211; MUSIRISCA</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+            </ul>
+            <ul class="rcmd_right rcmd_cont" id="rank">
+				<li>
+                    <a href="javascript:;" class="musicName">创奏&#8211; 霜月はるか</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+				<li>
+                    <a href="javascript:;" class="musicName">願い枯れゆく歌声 &#8211; Ether</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+				<li>
+                    <a href="javascript:;" class="musicName">LICHT MEER &#8211; 河合夕子</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+				<li>
+                    <a href="javascript:;" class="musicName">Nocturne No. 2  &#8211; Chopin</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+				<li>
+                    <a href="javascript:;" class="musicName">夜曲 &#8211; Chopin</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+				<li>
+                    <a href="javascript:;" class="musicName">降E大调夜曲 &#8211; Chopin</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+				<li>
+                    <a href="javascript:;" class="musicName">即兴幻想曲 &#8211; Chopin</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+				<li>
+                    <a href="javascript:;" class="musicName">Nocturne op. 32 &#8211; Chopin</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+				<li>
+                    <a href="javascript:;" class="musicName">Prelude in Des &#8211; Chopin</a>
+                    <a class="shareIcon" href="javascript:;"></a>
+                    <a class="playIcon" href="javascript:;"></a>
+                </li>
+			</ul>
+        </div>
+    </div>
+
+    <div class="omnibus hot_singer">
+        <div class="omnibus_cont new_common">
+            <div class="omnibus_title new_common_title">
+                <span>A fantasy world</span>
+                <a href="" class="more"></a>
+            </div>
+            <ul id="omnibus_list">
+                <li class="post_big">
+                    <a href="javascript:;">
+                        <img src="images/林夕.jpg" alt="" width="305" height="290">
+                        <i></i>
+                    </a>
+                    <a href="javascript:;">向来情深，奈何缘浅</a>
+                </li>
+                <li class="post_small">
+                    <a href="">
+                        <img src="images/fsrm.jpg" alt="" width="130" height="130">
+                        <span></span>
+                    </a>
+                    <a href="javascript:;">浮生若梦</a>
+                </li>
+                <li class="post_small">
+                    <a href="">
+                        <img src='images/ssll.jpg' alt="" width="130" height="130">
+                        <span></span>
+                    </a>
+                    <a href="">似水流年</a>
+                </li>
+                <li class="post_small">
+                    <a href="">
+                        <img src="images/msgr.jpg" alt="" width="130" height="130">
+                        <span></span>
+                    </a>
+                    <a href="">陌上归人</a>
+                </li>
+                <li class="post_small">
+                    <a href="">
+                        <img src='images/slnl.jpg' alt="" width="130" height="130">
+                        <span></span>
+                    </a>
+                    <a href="">顺流逆流</a>
+                </li>
+                <li class="post_small">
+                    <a href="">
+                        <img src='images/yyqmjpg.jpg' alt="" width="130" height="130">
+                        <span></span>
+                    </a>
+                    <a href="">烟雨凄迷</a>
+                </li>
+                <li class="post_small">
+                    <a href="">
+                        <img src="images/rfcm.jpg" alt="" width="130" height="130">
+                        <span></span>
+                    </a>
+                    <a href="">人非草木</a>
+                </li>
+            </ul>
+        </div>
+        <div class="hot_singer_cont new_common">
+            <div class="hot_singer_title new_common_title">
+                <span>Artist's soul</span>
+                <a href="" class="more"></a>
+            </div>
+            <ul class="singer_list">
+                <li>
+                    <a href="" class="singerPhoto">
+                        <img src=" images/Leslie.jpg" alt="" width="70" height="70"></a>
+                    <a href="" class="singer">Leslie</a>
+                </li>
+                <li>
+                    <a href="" class="singerPhoto">
+                        <img src="images/Danny.jpg" alt="" width="70" height="70"></a>
+                    <a href="" class="singer">Danny</a>
+                </li>
+                <li>
+                    <a href="" class="singerPhoto">
+                        <img src=" images/Ka Kui Wong.jpg" alt="" width="70" height="70"></a>
+                    <a href="?p=363" class="singer">Ka Kui Wong</a>
+                </li>
+                <li>
+                    <a href="" class="singerPhoto">
+                        <img src=" images/Michael Jackson.jpg" alt="" width="70" height="70"></a>
+                    <a href="" class="singer">Michael </a>
+                </li>
+                <li>
+                    <a href="" class="singerPhoto">
+                        <img src='images/猫王.jpg' alt="" width="70" height="70"></a>
+                    <a href="" class="singer">ELvis Presley</a>
+                </li>
+                <li>
+                    <a href="" class="singerPhoto">
+                        <img src=" images/Anita Mui.jpg" alt="" width="70" height="70"></a>
+                    <a href="" class="singer">Anita Mui</a>
+                </li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+    <div style="clear:both"></div></div>
+</section>
+
+
+
+
+
+<!-- 左侧播放器 开始-->
+<div id="jp_container_N" class="jp-video jp-video-270p" role="application" aria-label="media player">
+	<div class="jp-type-playlist">
+		<div id="jquery_jplayer_N"class="jp-jplayer"></div>
+		<div class="jp-gui">
+			<div class="jp-video-play">
+				<button class="jp-video-play-icon" role="button" tabindex="0">播放</button>
+			</div>
+			<div class="jp-interface">
+				<div class="jp-progress">
+					<div class="jp-seek-bar">
+						<div class="jp-play-bar"></div>
+					</div>
+				</div>
+				<div class="jp-current-time" role="timer" aria-label="time"></div>
+				<div class="jp-duration" role="timer" aria-label="duration"></div>
+				<div class="jp-controls-holder">
+					<div class="jp-controls">
+						<button class="jp-previous" role="button" tabindex="0">上一曲</button>
+						<button class="jp-play" role="button" tabindex="0">播放</button>
+						<button class="jp-next" role="button" tabindex="0">下一曲</button>
+						<button class="jp-stop" role="button" tabindex="0">暂停</button>
+					</div>
+					<div class="jp-volume-controls">
+						<button class="jp-mute" role="button" tabindex="0">静音</button>
+						<button class="jp-volume-max" role="button" tabindex="0">最大音量</button>
+						<div class="jp-volume-bar">
+							<div class="jp-volume-bar-value"></div>
+						</div>
+					</div>
+					<div class="jp-toggles">
+						<button class="jp-repeat" role="button" tabindex="0">重复</button>
+						<button class="jp-shuffle" role="button" tabindex="0">随机</button>
+						<!--<button class="jp-full-screen" role="button" tabindex="0">全屏</button>-->
+					</div>
+				</div>
+				<div class="jp-details">
+					<div class="jp-title" aria-label="title"></div>
+				</div>
+			</div>
+		</div>
+		<div class="jp-playlist">
+        	<div class="jp-playlist-box">
+                <ul>
+                    <!-- 该方法使用无序列表displayplaylist()播放列表 -->
+                    <li></li>
+                </ul>
+            </div>
+		</div>
+		<div class="jp-no-solution">
+			<span>升级需要</span>
+			您浏览器赞不支持播放，请更新版本
+            <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash插件</a>.
+		</div>
+	</div>
+    <!--歌曲列表滚动条-->
+    <div class="scrollBar">
+    	<div class="bar"></div>
+    </div>
+    <!--播放器展开隐藏按钮-->
+    <button type="button" class="folded_bt" title="点击收缩" id="btnfold">
+    	<span></span>
+   	</button>
+    <div id="listRemove"></div><!--移除全部歌曲按钮--> 
+    <div id="listClose"></div><!--歌曲列表展开收缩按钮-->
+</div>
+<!-- 左侧播放器 结束-->
+
+
+<script type="text/javascript" src=" js/jquery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!--播放器js-->
+ <script type="text/javascript" src="js/player.js"></script>
+  <script type="text/javascript" src="js/playlist.js"></script>  
+<script type="text/javascript" src="js/player_database.js"></script>	
+<!--播放器js-->
+<!-- 底部模板调用 结束 -->
+</body>
+</html>
+
+
