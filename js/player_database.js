@@ -8,7 +8,7 @@
      [
 		 { title: "由零开始", artist: "张国荣", mp3:"mp3/ylks.mp3  ", poster: "images/zgl.jpg"},
 		 { title: "离人", artist: "张学友", mp3:"mp3/离人.mp3 ", poster: "images/zxy.jpg"},
-		 { title: "夜未央", artist: "谭咏麟", mp3:"mp3/夜未央.mp3", poster: "tyl.jpg"}
+		 { title: "夜未央", artist: "谭咏麟", mp3:"mp3/夜未央.mp3", poster: "images/tyl.jpg"}
 	 ], 
 		 		    
 		{playlistOptions:{enableRemoveControls: true},
