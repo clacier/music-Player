@@ -44,7 +44,7 @@
 
 	//now
 	var popular=[
-		{ title: "有心人", artist: "张国荣", mp3: "mp3/有心人.mp3", poster:"images/zgr.jpg"},
+		{ title: "有心人", artist: "张国荣", mp3: "mp3/有心人.mp3", poster:"images/zgl.jpg"},
 		{ title: "尘埃落定", artist: "张敬轩", mp3: "mp3/尘埃落定.mp3", poster:"images/张敬轩.jpg"},
 		{ title: "倾城", artist: "许美静", mp3: "mp3/倾城.mp3", poster:"images/许美静.jpg"},
 		{ title: "暧昧", artist: "王菲", mp3: "mp3/暧昧.mp3", poster: "images/王菲.jpg"},
