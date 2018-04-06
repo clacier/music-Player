@@ -8,7 +8,7 @@
      [
 		 { title: "由零开始", artist: "张国荣", mp3:"mp3/ylks.mp3  ", poster: "images/zgl.jpg"},
 		 { title: "离人", artist: "张学友", mp3:"mp3/离人.mp3 ", poster: "images/zxy.jpg"},
-		 { title: "夜未央", artist: "谭咏麟", mp3:"mp3/夜未央.mp3", poster: "images/tyl.jpg"}
+		 { title: "夜未央", artist: "谭咏麟", mp3:"mp3/夜未央.mp3", poster: "tyl.jpg"}
 	 ], 
 		 		    
 		{playlistOptions:{enableRemoveControls: true},
@@ -31,41 +31,41 @@
 
 	//past
 	var latest=[
-		{ title: "Fleur de lis", artist: "Noicybino", mp3: "http://music.163.com/song/media/outer/url?id=533079474.mp3", poster:"http://p1.music.126.net/C3C4vPOMsTd_vX9Ccww06Q==/109951163117390906.jpg?param=130y130"},
-		{ title: "Dance, cherry blossoms!", artist: "Yuri akiyama", mp3: "http://music.163.com/song/media/outer/url?id=518291899.mp3 ", poster:"http://p1.music.126.net/AKhQSRL6HyZu4YwWg4Wi6A==/109951163060585255.jpg?param=130y130"},
-		{ title: "Lost in Love", artist: "Bois LanYun", mp3: "http://music.163.com/song/media/outer/url?id=521597063.mp3", poster:"http://p1.music.126.net/6o_M9dSbYPRqKRmwY1bOGg==/109951163073262137.jpg?param=130y130"},
-		{ title: "远すぎた空", artist: "Akito", mp3: "http://music.163.com/song/media/outer/url?id=357185.mp3", poster:"http://p1.music.126.net/7cYhniBuLvU3fvLjeRFeNw==/106652627910735.jpg?param=130y130"},
-		{ title: "Whether", artist: " AniFace", mp3: "http://music.163.com/song/media/outer/url?id=515384791.mp3", poster:"http://p1.music.126.net/PzE3JrY7QVqFghK9gJN67A==/109951163050326398.jpg?param=130y130"},
-		{ title: "Constellation Of Tatyana", artist: "Yakuro", mp3: "http://music.163.com/song/media/outer/url?id=28914253.mp3", poster:"http://p1.music.126.net/V7YrIWl2ALgg4QZTxD7_rw==/2937895071851575.jpg?param=130y130"},
-		{ title: "Princess", artist: "α·Pav", mp3: "http://music.163.com/song/media/outer/url?id=357023.mp3", poster:"http://p1.music.126.net/ktIGtL8eCh6bmDf5a27tFQ==/93458488378205.jpg?param=130y130"},
-		{ title: "Day by Day", artist: "Shirfine", mp3: "http://music.163.com/song/media/outer/url?id=27579054.mp3", poster:"http://p1.music.126.net/J6m3eJOw32G_wDim2tqloA==/5636096604060170.jpg?param=130y130"},
-		{ title: "blue blossoms", artist: "久遠", mp3: "http://music.163.com/song/media/outer/url?id=803347.mp3", poster:"http://p1.music.126.net/j9u_wRtJMhlt64k-ZSUM3Q==/944480488305733.jpg?param=130y130"}
+		{ title: "总有你鼓励", artist: "李国祥/伦永亮", mp3: "mp3/总有你鼓励.mp3", poster:"images/李国祥.jpg"},
+		{ title: "谁可改变", artist: "谭咏麟", mp3: "mp3/谁可改变.mp3" , poster:"images/tyl.jpg"},
+		{ title: "随缘", artist: "温兆伦", mp3: "mp3/随缘.mp3", poster:"images/温兆伦.jpg"},
+		{ title: "心跳呼吸正常", artist: "张国荣", mp3: "mp3/心跳呼吸正常.mp3", poster:"images/zgl.jpg"},
+		{ title: "等", artist: " 陈百强", mp3: "mp3/等.mp3", poster:"images/陈百强.jpg"},
+		{ title: "春秋", artist: "张敬轩", mp3: "mp3/春秋.mp3", poster:"images/张敬轩.jpg"},
+		{ title: "一生不变", artist: "李克勤", mp3: "mp3/一生不变.mp3", poster:"images/李克勤.jpg"},
+		{ title: "再见二丁目", artist: "杨千嬅", mp3: "mp3/再见二丁目.mp3", poster:"images/杨千嬅.jpg"},
+		{ title: "墨尔本的翡翠", artist: "林颐", mp3: "mp3/墨尔本的翡翠.mp3", poster:"images/林颐.jpg"}
 	];
 
 	//now
 	var popular=[
-		{ title: "無神論者のためのセレナータ", artist: "love solfege", mp3: "http://music.163.com/song/media/outer/url?id=22676238.mp3", poster:"http://p1.music.126.net/ek5C5HeDHICGjziHhTMCow==/749866930165203.jpg?param=130y130"},
-		{ title: "Proschenie", artist: "love solfege", mp3: "http://music.163.com/song/media/outer/url?id=22676239.mp3", poster:"http://p1.music.126.net/ek5C5HeDHICGjziHhTMCow==/749866930165203.jpg?param=130y130"},
-		{ title: "神の光 -Μοιρα-", artist: "Sound Horizon", mp3: "http://music.163.com/song/media/outer/url?id=22782003.mp3", poster:"http://p1.music.126.net/ykne_IJENLMk5KvNUXC3Xg==/779553744115520.jpg?param=130y130"},
-		{ title: "星女神の巫女 -Αρτεμισια-", artist: "Sound Horizon", mp3: "http://music.163.com/song/media/outer/url?id=816209.mp3", poster: "http://p1.music.126.net/jRkMO3QROnFeVrL2m3XuvQ==/18976471183854535.jpg?param=130y130"},
-		{ title: "石畳の緋い悪魔", artist: "Sound Horizon", mp3: "http://music.163.com/song/media/outer/url?id=816217.mp3", poster:"http://p1.music.126.net/e0tsg402IoJLHyJIx4TWQw==/4451922580867675.jpg?param=130y130"},
-		{ title: "この狭い鳥籠の中で", artist: "Sound Horizon", mp3: "http://music.163.com/song/media/outer/url?id=816197.mp3", poster:"http://p1.music.126.net/RNabeevAh1X4_U76fS1FCg==/4415638697151069.jpg?param=130y130"},
-		{ title: "Secret Track", artist: "Sound Horizon", mp3: "http://music.163.com/song/media/outer/url?id=470573387.mp3", poster:"http://p1.music.126.net/RNabeevAh1X4_U76fS1FCg==/4415638697151069.jpg?param=130y130"},
-		{ title: "a fairy tale", artist: "MUSIRISCA", mp3: "http://music.163.com/song/media/outer/url?id=4922555.mp3", poster:"http://p1.music.126.net/9vinX4XYfdNgSu3pQcWMMg==/2542070884388514.jpg?param=130y130"},
-		{ title: "Prayer", artist: "MUSIRISCA", mp3: "http://music.163.com/song/media/outer/url?id=35504074.mp3", poster:"http://p1.music.126.net/g9dAq3k_Z9gE6GRcZo4XuA==/3420580674756260.jpg?param=130y130"}
+		{ title: "有心人", artist: "张国荣", mp3: "mp3/有心人.mp3", poster:"images/zgr.jpg"},
+		{ title: "尘埃落定", artist: "张敬轩", mp3: "mp3/尘埃落定.mp3", poster:"images/张敬轩.jpg"},
+		{ title: "倾城", artist: "许美静", mp3: "mp3/倾城.mp3", poster:"images/许美静.jpg"},
+		{ title: "暧昧", artist: "王菲", mp3: "mp3/暧昧.mp3", poster: "images/王菲.jpg"},
+		{ title: "还是觉得你最好", artist: "张学友", mp3: "mp3/还是觉得你最好.mp3", poster:"images/zxy.jpg"},
+		{ title: "一生何求", artist: "陈百强", mp3: "mp3/一生何求.mp3", poster:"images/陈百强.jpg"},
+		{ title: "爱的故事(上)", artist: "孙耀威", mp3: "mp3/爱的故事(上).mp3", poster:"images/孙耀威.jpg"},
+		{ title: "那有一天不想你", artist: "黎明", mp3: "mp3/那有一天不想你.mp3", poster:"images/黎明.jpg"},
+		{ title: "传闻", artist: "周柏豪", mp3: "mp3/传闻.mp3", poster:"images/周柏豪.jpg"}
 	];
 
 	//future
 	var rank=[
-		{ title: "创奏", artist: "霜月はるか", mp3: "http://music.163.com/song/media/outer/url?id=645239.mp3", poster:"http://p1.music.126.net/Fp7CYfdZsQAYZls-gD8KpQ==/2262794929982835.jpg?param=130y130"},
-		{ title: "願い枯れゆく歌声", artist: "Ether", mp3: "http://music.163.com/song/media/outer/url?id=40915970.mp3", poster:"http://p1.music.126.net/DU6RM83OPR0KMcVP05f6zA==/3294136844455797.jpg?param=130y130"},
-		{ title: "LICHT MEER", artist: "河合夕子", mp3: "http://music.163.com/song/media/outer/url?id=499086.mp3", poster:"http://p1.music.126.net/z7Mk6Au_otaoWozoM-t62w==/2402432906715323.jpg?param=130y130"},
-		{ title: "Nocturne No. 2 ", artist: "Chopin", mp3: "http://music.163.com/song/media/outer/url?id=1060914.mp3", poster:"http://p1.music.126.net/Dvhon4mH7qimTtE7q3omTw==/1419469524716144.jpg?param=130y130"},
-		{ title: "夜曲", artist: "Chopin", mp3: "http://music.163.com/song/media/outer/url?id=5266269.mp3", poster:"http://p1.music.126.net/-jxEuvKopuUdXDTKL7KuWw==/105553116283769.jpg?param=130y130"},
-		{ title: "降E大调夜曲", artist: "Chopin", mp3: "http://music.163.com/song/media/outer/url?id=25830129.mp3", poster:"http://p1.music.126.net/h3MYwTuGIpkWiMuBwZ3Vmg==/6631154628238015.jpg?param=130y130"},
-		{ title: "即兴幻想曲", artist: "Chopin", mp3: "http://music.163.com/song/media/outer/url?id=25830133.mp3", poster:"http://p1.music.126.net/8cSVJulJa2tiLydRxyXuTg==/109951162938339077.jpg?param=130y130"},
-		{ title: "Nocturne op. 32", artist: "Chopin", mp3: "http://music.163.com/song/media/outer/url?id=26160789.mp3", poster:"http://p1.music.126.net/MiXbBt6j6xWNlv_QCFSRAw==/2288083697427927.jpg?param=130y130"},
-		{ title: "Prelude in Des", artist: "Chopin", mp3: "http://music.163.com/song/media/outer/url?id=26818399.mp3", poster:"http://p1.music.126.net/68_Rrtyz1A9MGImm2cUb-w==/2078076976524854.jpg?param=130y130"}
+		{ title: "伤感的恋人", artist: "黄凯芹", mp3: "mp3/伤感的恋人.mp3", poster:"images/黄凯芹.jpg"},
+		{ title: "最后一班渡轮", artist: "蔡国权", mp3: "mp3/最后一班渡轮.mp3", poster:"images/蔡国权.jpg"},
+		{ title: "今生今世", artist: "张国荣", mp3: "mp3/今生今世.mp3", poster:"images/zgl.jpg"},
+		{ title: "不吐不快 ", artist: "张敬轩", mp3: "mp3/不吐不快.mp3", poster:"images/张敬轩.jpg"},
+		{ title: "唉声叹气", artist: "郑秀文", mp3: "mp3/唉声叹气.mp3", poster:"images/郑秀文.jpg"},
+		{ title: "天意人心", artist: "蔡国权", mp3: "mp3/天意人心.mp3", poster:"images/蔡国权.jpg"},
+		{ title: "雨夜的浪漫", artist: "张学友", mp3: "mp3/雨夜的浪漫.mp3", poster:"images/zxy.jpg"},
+		{ title: "涟漪", artist: "陈百强", mp3: "mp3/涟漪.mp3", poster:"images/陈百强.jpg"},
+		{ title: "七夕", artist: "邓丽欣", mp3: "mp3/七夕.mp3", poster:"images/邓丽欣.jpg"}
 	];
 
    // oline song/dream/
@@ -82,8 +82,8 @@
 	   { title: "The truth that you leave", artist: "高志豪", mp3: "mp3/The truth that you leave.mp3", poster: "images/The truth that you leave.jpg" }
 	   ];
    var spirit =[
-	   { title: "M19+20", artist: "梶浦由記", mp3: "http://music.163.com/song/media/outer/url?id=591753.mp3 ", poster: "http://p1.music.126.net/lW4YKD6cMgm32nI66CzWVg==/5702067301704441.jpg?param=130y130" },
-	   { title: "Sis puella magica!", artist: "梶浦由記", mp3: "http://music.163.com/song/media/outer/url?id=496902072.mp3", poster: "http://p1.music.126.net/tFTRt1H87rReNTyO1K9IDQ==/18498183627713149.jpg?param=130y130" },
+	   { title: "M19+20", artist: "梶浦由記", mp3: "mp3/.mp3 ", poster: "http://p1.music.126.net/lW4YKD6cMgm32nI66CzWVg==/5702067301704441.jpg?param=130y130" },
+	   { title: "Sis puella magica!", artist: "梶浦由記", mp3: "mp3/.mp3", poster: "http://p1.music.126.net/tFTRt1H87rReNTyO1K9IDQ==/18498183627713149.jpg?param=130y130" },
 	   { title: "月は优しく (月)", artist: "梶浦由記", mp3: "http://music.163.com/song/media/outer/url?id=590623.mp3", poster: "http://p1.music.126.net/7xaV2qB-T1d9m8b1XZC6tQ==/725677674344222.jpg?param=130y130" },
 	   { title: "Euterpe エウテルペ ", artist: "染音若蔡", mp3: "http://music.163.com/song/media/outer/url?id=452654214.mp3", poster: "http://p1.music.126.net/Iqckrd2sOB1ztqrSOw4XzA==/109951162841140691.jpg?param=130y130" },
 	   { title: "幻光", artist: "杨秉音", mp3: "http://music.163.com/song/media/outer/url?id=526989692.mp3", poster: "http://p1.music.126.net/4xHOkSVWH-n6p5pB3Jf0yQ==/109951162922204274.jpg" },
@@ -136,7 +136,7 @@
 			title:popular[k].title, artist:popular[k].artist,
 			//free:true,
 			mp3:popular[k].mp3,
-			//oga:"",
+			//oga:"",698 
 			poster:popular[k].poster
 		});
 		myPlaylist.play(-1);
@@ -332,12 +332,12 @@ $("#magic li").find("a.playIcon").click(function () {
 	//页面加载时，播放器运动出来，延迟3秒，运动回去
 	$(".jp-video").animate({left:0},"slow",function(){
 		slideOut($(this));		
-	}).delay(3000).animate({left:"-480px"},350,function(){
-		slideIn($(this));	
-	});
+	 })//.delay(3000).animate({left:"-480px"},350,function(){
+	// 	slideIn($(this));	
+	//});
 	
 	//点击按钮运动出来，或运动回去
-	$("#btnfold").mouseover(function(){
+	$("#btnfold").click(function(){
 		if(fold){
 			$(".jp-video").animate({left:"-480px"},350,function(){	
 				slideIn($(this));
