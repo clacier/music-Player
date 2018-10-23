@@ -1,4 +1,3 @@
-﻿
 html, body, header, nav, footer, div, ul, ol, li, p, form, input, a, span, em, i, strong, b, font, img {
 	margin: 0;
 	padding: 0;
@@ -161,7 +160,7 @@ nav.sub_nav {
 .nav_list {
 	width: 100%;
 	height: 36px;
-	top: 10px;
+	top: 34%;
 	left:500px;
 	position: absolute;
 }
